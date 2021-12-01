@@ -1,0 +1,29 @@
+{
+  "name": "typescript-webpack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hans Schenker <gian.schenker@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "@types/webpack": "^5.28.0",
+    "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^5.4.0",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "rxjs": "^7.4.0"
+  }
+}
